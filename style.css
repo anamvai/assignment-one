@@ -1,0 +1,40 @@
+.container-1 h1{
+    border-left: 3px solid rgb(230, 192, 122);
+}
+.container-2 h1{
+    text-align: center;
+}
+.container-2 img{
+    width: 50%;
+}
+.container-2 .flexible div{
+    margin: 5px;
+    padding: 5px;
+    background-color: thistle;
+    border-radius: 5px;
+} 
+/* Common Class */
+.container{
+    margin: 20px;
+    padding: 20px;
+}
+.flexible{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.person{
+    width: 100%;
+}
+.bluish-text{
+    color: steelblue;
+}
+.bluish-button{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: steelblue;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 500;
+}
